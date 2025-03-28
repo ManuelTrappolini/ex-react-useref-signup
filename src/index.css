@@ -6,13 +6,41 @@
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 
 }
+
 
 .field {
 
   padding: 8px;
   margin-right: 10px;
   margin-bottom: 10px;
+  width: calc((100%/12) *4);
 
+}
+
+.container {
+
+  width: 80%;
+  margin: auto;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.valid {
+  color: green;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+button {
+
+  background-color: blue;
+  width: 100px;
+  margin-top: 10px;
 }
